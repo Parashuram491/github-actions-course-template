@@ -1,0 +1,10 @@
+name: practice
+on:
+  push:
+jobs:
+   echo:
+      runs-on: ubuntu-latest
+      steps:
+         - name:
+           run: echo " print echo job"
+  
