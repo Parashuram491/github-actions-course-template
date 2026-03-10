@@ -1,0 +1,11 @@
+name: Practice 
+
+on:
+   push:
+      - main
+jobs:
+   build:
+      runs-on: ubuntu-latest
+      steps:
+         -name: build
+          run: echo " build job
